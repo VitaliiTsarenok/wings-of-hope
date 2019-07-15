@@ -1,0 +1,94 @@
+
+
+.home{
+  .baner{
+    background: url(../img/home/header-image.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+
+.what-we-do{
+  .baner{
+    background: url(../img/what-we-do/what-we-do-header-dark-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .img-gallery{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.who-we-help{
+  .baner{
+    background: url(../img/who-we-help/who-we-help-header-2-dark.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+
+  .list-of-mission{
+    line-height: 15px;
+    color: lighten( $nav-color, 10% );
+
+    li{
+      padding-bottom: 10px;
+    }
+
+    i{
+      float: left;
+      font-size: 20px;
+      color: aqua;
+      padding-right: 20px;
+      padding-bottom: 11px;
+    }
+  }
+}
+
+.who-we-are{
+  .baner{
+    background: url(../img/who-we-are/who_we_are.jpg) no-repeat;
+    background-position: center;  
+    background-size: cover;
+    color: #fff;
+  }
+
+  .article{
+    margin-bottom: 0;
+  }
+
+  .card{
+    height: 400px;
+  }
+}
+
+.events{
+  .baner{
+    background: url(../img/events/events.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+}
+
+.contact{
+  .baner{
+    background: url(../img/contact/contact-us-header-dark.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;  
+    color: #fff;
+  }
+}
+
+.donate-section{
+  .baner{
+    background: url(../img/donate/gift-of-relief-header.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+  }
+}

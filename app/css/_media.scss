@@ -1,0 +1,155 @@
+@media screen and (min-width: 768px) {
+
+    header{
+        flex-direction: row;
+
+        .mobile-logo{
+            display: none;
+        }
+
+        .menu{
+            display: none;
+        }
+
+        .nav{
+            position: fixed;
+            justify-content: space-around;
+            height: 80px;
+            opacity: 1;
+            padding: 20px 50px;
+            z-index: 999;
+            overflow: visible;
+            background-color: rgba($nav-color, 0.95);
+    
+            .logo{
+                position: absolute;
+                top: 65px;
+                display: block;
+                width: 190px;
+                border-radius: 20px;
+                background-color: $footer-color;
+                a{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    color: #fff;
+
+                    img{
+                        height: 40px;
+                        width: 40px;
+                    }
+
+                    h1{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+
+        .nav-list{
+            position: initial;
+            background: none;
+            transform: initial;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            line-height: 40px;
+            font-size: 18px;
+            border-radius: initial;
+        }
+
+    }
+
+    .home,
+    .what-we-do,
+    .who-we-help,
+    .who-we-are,
+    .events,
+    .contact,
+    .donate-section{
+      .baner{
+        background-position: 50% 40%;
+        background-size: initial;
+      }
+    }
+
+    .baner{
+        min-height: 500px;
+        padding: 100px 60px;
+    }
+
+    .dir-row{
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .add-full-width{
+        width: 100%
+    }
+
+    footer{
+        flex-direction: row;
+    }
+
+    .add-flex{
+        flex: 1;
+    }
+
+    .donate-form{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   header{
+       .nav{
+            justify-content: space-between;
+            padding: 20px 70px;
+            .logo{
+                position: initial;
+                width: 200px;
+                background: none;
+                border-radius: initial;
+                h1{
+                    margin: 0;
+                    padding: 0;
+                    line-height: 20px;
+                }
+            }
+       }
+
+       .nav-list{
+           justify-content: space-around;
+           margin-left: 20px;
+       }
+   }
+
+   .baner{
+        padding: 100px 100px;
+    }   
+
+   .img-gallery{
+        width: 90%;
+        margin: 0 auto;
+   }
+}
+
+@media screen and (min-width: 1280px) {
+
+    header{
+        .nav{
+            padding: 20px 130px;
+        }
+    }
+
+    .baner{
+        padding: 100px 150px;
+    }
+
+    .img-gallery{
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+}

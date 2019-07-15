@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Home</title>
+    //= template/head.html
+</head>
+
+<body>
+
+    <header>
+        //= template/header.html
+    </header>
+    
+    
+    <section class="donate-section">
+
+        <section class="baner">
+            <h1 class="baner-name">Donate <span class="pink">Now</span></h1>
+            <p class="slogan">
+                “No one has ever become poor by giving.”
+             </p>
+         </section>
+
+         <section class="post-container add-0-pb">
+
+            <form id="feedback" class="donate-form" onsubmit="return false">
+                <input type="text" class="input" placeholder="Name" name="yourname" >
+                <input type="text" class="input" placeholder="Email" name="email" >
+                <input type="text" class="input" placeholder="Amonut" name="amount" >
+                <textarea name="message" class="text-area" placeholder="Message" ></textarea>
+                <input type="submit" class="input btn btn-submit" value="Donate">
+            </form>
+
+            <section class="post-container add-0-pb dir-row add-full-width">
+                <div class="article zoom-wrapper">
+                   <img src="./img/donate/transportation-icon-01.png" alt="transportation">
+                   <h4>Hospital Parking</h4>
+                   <h1>$50</h1>
+                   <div class="zoom bg-1"></div>
+                </div>
+                <div class="article zoom-wrapper">
+                   <img src="./img/donate/medication-icon-01.png" alt="medication">
+                   <h4>Medication</h4>
+                   <h1>$100</h1>
+                   <div class="zoom bg-2"></div>
+                </div>
+                <div class="article zoom-wrapper">
+                   <img src="./img/donate/groceries-icon-01.png" alt="groceries">
+                   <h4>Groceries</h4>
+                   <h1>$200</h1>
+                   <div class="zoom bg-3"></div>
+                </div>
+                <div class="article zoom-wrapper">
+                   <img src="./img/donate/utilitties-icon-01.png" alt="utilitties">
+                   <h4>Utilitties</h4>
+                   <h1>$250</h1>
+                   <div class="zoom bg-4"></div>
+                </div>
+                <div class="article zoom-wrapper">
+                   <img src="./img/donate/housing-icon-01.png" alt="housing">
+                   <h4>Housing</h4>
+                   <h1>$500</h1>
+                   <div class="zoom bg-5"></div>
+                </div>
+            </section>
+
+         </section>
+
+
+
+    </section>
+    
+    <footer class="footer">
+        //= template/footer.html
+    </footer>
+    
+    //= template/scripts.html
+</body>
+
+</html>
